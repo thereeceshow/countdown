@@ -22,8 +22,7 @@ Countdown to:
 
 | `DATE` | `TIME` |
 |--- | --- |
-
-<button>sumbit</buttom>
+<button>submit</button>
 
 ---
 

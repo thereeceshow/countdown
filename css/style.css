@@ -8,8 +8,8 @@ body {
 
 @font-face {
     font-family: 'digi';
-    src: url('/css/ds-digi-webfont.woff2') format('woff2'),
-        url('/css/ds-digi-webfont.woff') format('woff');
+    src: url('https://thereeceshow.github.io/countdown/css/ds-digi-webfont.woff2') format('woff2'),
+        url('https://thereeceshow.github.io/countdown/css/ds-digi-webfont.woff') format('woff');
         font-weight: normal;
         font-style: normal;
 }
