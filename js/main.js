@@ -87,7 +87,7 @@ btn.onclick = function changeTime() {
     function reloadPage() {
         location.reload();
     }
-    setTimeout(reloadPage,500);
+    setTimeout(reloadPage,800);
     
     } else if (cTime == '2022') {
         // display.classList.remove('distract');
@@ -96,7 +96,7 @@ btn.onclick = function changeTime() {
         // setInterval(test, 1000);
     } else {
         display.classList.remove('distract');
-        goalTime = new Date('February 22, 2021 08:00:00')
+        goalTime = new Date('February 22, 2021 08:00:00');
         // setInterval(test, 1000);
     }
 }
