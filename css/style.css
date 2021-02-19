@@ -1,0 +1,20 @@
+body {
+    background-image: radial-gradient(circle at 100%, rgb(136, 185, 136), rgb(0, 0, 0));
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+@font-face {
+    font-family: 'digi';
+    src: url('/css/ds-digi-webfont.woff2') format('woff2'),
+        url('/css/ds-digi-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+#goal {
+    font-family: 'digi';
+    font-size: 3.5em;
+}
