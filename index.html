@@ -7,12 +7,27 @@
     </head>
     <body>
         <h1>Countdown Timer</h1>
-        <div>
+        <div id="display">
             <p id="goal">DD:HH:MM:SS</p>
-            <label for='date' min='$todaymin'><input type="date" id='date'></label>
-            <label for='time'><input type="time" id='time'></label>
-            <br>
-            <button>Update Timer</button>
+        </div>
+        <div id="UI">
+            <p><label for='dropdownTime'>Choose a Different Timer:</label>
+            <select name="dropTime" id="dropdownTime">
+                <option value="awesome">Live Bootcamp Starts</option>
+                <option value="distraction">Next Time I'm Distracted Working at Home</option>
+                <option value="2022">2022</option>
+            </select>
+            <button id="btn">Change Time</button>
+            </p>
+            
+
+            <!-- <form>
+                <label for='date'><input type="date" id='date' min='$todaymin' value="02/22/2021"></label>
+                <label for='time'><input type="time" id='time' value="08:00:00"></label>
+                <br>
+                <button type="submit">Update Timer</button>
+                <input type="submit" value="Submit Custom Time">
+            </form> -->    
         </div>
         <script src="/js/main.js"></script>
     </body>
