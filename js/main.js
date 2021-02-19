@@ -71,17 +71,23 @@ btn.onclick = function changeTime() {
         let things = ['Phone Call'+'Will you play with me?','Random Pokemon Question','Daddy I am Hungry','NTI Snow Day','Daddy I am Thirsty','Come Play','Dog Crying','NEED MORE COFFEE!!!!!!!']
         function crazyDis () {
             goal.classList.add('distract');
+        }
+        function crazyDisAlert () {
             for (i = 0; i < intTimes; i++) {
                 let intOrder = Math.floor(Math.random() * things.length);
                 function randText() {
                     setTimeout(alert(things[intOrder]),1000);
                 }
-                randText();
-                }
+            randText();
+            }
         }
-    // while (cTime == 'distraction') {
     crazyDis();
-    location.reload();
+    setTimeout(crazyDisAlert, 500);
+    
+    function reloadPage() {
+        location.reload();
+    }
+    setTimeout(reloadPage,500);
     
     } else if (cTime == '2022') {
         // display.classList.remove('distract');
